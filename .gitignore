@@ -1,0 +1,21 @@
+# Simulator generated files
+sim/waves/*.vcd
+sim/waves/*.wlf
+sim/logs/*.log
+*.log
+*.jou
+*.pb
+
+# Object files and temporaries
+*.o
+*.so
+*.tmp
+*.bak
+
+# Vivado project files
+vivado/*.xpr
+vivado/*.cache/
+vivado/*.hw/
+vivado/*.ip_user_files/
+vivado/*.sim/
+vivado/*.runs/
