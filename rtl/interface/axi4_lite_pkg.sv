@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 package axi4_lite_pkg;
     // AXI Response Codes
     localparam logic [1:0] RESP_OKAY   = 2'b00;
