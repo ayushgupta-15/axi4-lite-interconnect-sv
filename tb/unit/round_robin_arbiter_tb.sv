@@ -15,6 +15,7 @@ module round_robin_arbiter_tb;
         .clk(clk),
         .rst(rst_n),
         .req(req),
+        .update_en(1'b1),
         .grant(grant)
     );
 

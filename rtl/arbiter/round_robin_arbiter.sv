@@ -6,6 +6,7 @@ module round_robin_arbiter #(
     input  logic clk,
     input  logic rst,
     input  logic [NUM_MASTERS-1:0] req,
+    input  logic update_en,
     output logic [NUM_MASTERS-1:0] grant
 );
 
@@ -30,7 +31,7 @@ module round_robin_arbiter #(
     always_ff @(posedge clk or negedge rst) begin
         if (!rst) begin
             priority_idx <= '0;
-        end else begin
+        end else if (update_en) begin
             for (int i = 0; i < NUM_MASTERS; i++) begin
                 if (grant[i]) begin
                     priority_idx <= (i + 1) % NUM_MASTERS;
