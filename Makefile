@@ -4,7 +4,7 @@ SIM_DIR = sim
 WAVES_DIR = $(SIM_DIR)/waves
 LOGS_DIR = $(SIM_DIR)/logs
 
-.PHONY: all clean test_axi_if test_decoder test_memory_slave
+.PHONY: all clean test_axi_if test_decoder test_memory_slave test_register_slave
 
 all:
 	@echo "Please specify a target to build/simulate."
@@ -26,6 +26,12 @@ test_memory_slave:
 	verilator --binary --timing -Wno-fatal -Irtl/interface rtl/interface/axi4_lite_if.sv rtl/slaves/axi_memory_slave.sv tb/unit/axi_memory_slave_tb.sv --top-module axi_memory_slave_tb
 	./obj_dir/Vaxi_memory_slave_tb > $(LOGS_DIR)/axi_memory_slave.log
 	cat $(LOGS_DIR)/axi_memory_slave.log
+
+test_register_slave:
+	mkdir -p $(LOGS_DIR)
+	verilator --binary --timing -Wno-fatal -Irtl/interface rtl/interface/axi4_lite_pkg.sv rtl/interface/axi4_lite_if.sv rtl/slaves/axi_register_slave.sv tb/unit/axi_register_slave_tb.sv --top-module axi_register_slave_tb
+	./obj_dir/Vaxi_register_slave_tb > $(LOGS_DIR)/axi_register_slave.log
+	cat $(LOGS_DIR)/axi_register_slave.log
 
 clean:
 	rm -rf $(WAVES_DIR)/* $(LOGS_DIR)/* $(SIM_DIR)/*.out obj_dir
