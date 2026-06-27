@@ -15,8 +15,8 @@ module round_robin_arbiter #(
     always_comb begin
         grant_comb = '0;
         for (int i = 0; i < NUM_MASTERS; i++) begin
-            int idx = priority_idx + i;
-            if (idx >= NUM_MASTERS) idx = idx - NUM_MASTERS;
+            int unsigned current_pri = priority_idx;
+            int unsigned idx = (current_pri + i) % NUM_MASTERS;
             
             if (req[idx]) begin
                 grant_comb[idx] = 1'b1;
@@ -31,12 +31,9 @@ module round_robin_arbiter #(
         if (!rst) begin
             priority_idx <= '0;
         end else begin
-            if (|grant) begin
-                for (int i = 0; i < NUM_MASTERS; i++) begin
-                    if (grant[i]) begin
-                        priority_idx <= (i == NUM_MASTERS - 1) ? '0 : (i + 1);
-                        break;
-                    end
+            for (int i = 0; i < NUM_MASTERS; i++) begin
+                if (grant[i]) begin
+                    priority_idx <= (i + 1) % NUM_MASTERS;
                 end
             end
         end

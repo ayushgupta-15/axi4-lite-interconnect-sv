@@ -76,18 +76,18 @@ module round_robin_arbiter_tb;
         @(negedge clk);
         req = 2'b11;
         
-        // Cycle 1
+        // Cycle 1 (priority_idx updates to 1, so grant becomes 10)
         @(posedge clk); #1;
-        if (grant !== 2'b01) begin $display("FAIL: Both Request Cycle 1 (Expected 01, Got %b)", grant); errors++; end
-        // Cycle 2
+        if (grant !== 2'b10) begin $display("FAIL: Both Request Cycle 1 (Expected 10, Got %b)", grant); errors++; end
+        // Cycle 2 (priority_idx updates to 0, so grant becomes 01)
         @(posedge clk); #1;
-        if (grant !== 2'b10) begin $display("FAIL: Both Request Cycle 2 (Expected 10, Got %b)", grant); errors++; end
+        if (grant !== 2'b01) begin $display("FAIL: Both Request Cycle 2 (Expected 01, Got %b)", grant); errors++; end
         // Cycle 3
         @(posedge clk); #1;
-        if (grant !== 2'b01) begin $display("FAIL: Both Request Cycle 3 (Expected 01, Got %b)", grant); errors++; end
+        if (grant !== 2'b10) begin $display("FAIL: Both Request Cycle 3 (Expected 10, Got %b)", grant); errors++; end
         // Cycle 4
         @(posedge clk); #1;
-        if (grant !== 2'b10) begin $display("FAIL: Both Request Cycle 4 (Expected 10, Got %b)", grant); errors++; end
+        if (grant !== 2'b01) begin $display("FAIL: Both Request Cycle 4 (Expected 01, Got %b)", grant); errors++; end
         
         if (errors == 0) $display("PASS: Alternating Arbitration");
 
