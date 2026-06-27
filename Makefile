@@ -4,7 +4,7 @@ SIM_DIR = sim
 WAVES_DIR = $(SIM_DIR)/waves
 LOGS_DIR = $(SIM_DIR)/logs
 
-.PHONY: all clean test_axi_if test_decoder test_memory_slave test_register_slave test_arbiter
+.PHONY: all clean test_axi_if test_decoder test_memory_slave test_register_slave test_arbiter test_crossbar_1m3s
 
 all:
 	@echo "Please specify a target to build/simulate."
@@ -38,6 +38,12 @@ test_arbiter:
 	verilator --binary --timing -Wno-fatal rtl/arbiter/round_robin_arbiter.sv tb/unit/round_robin_arbiter_tb.sv --top-module round_robin_arbiter_tb
 	./obj_dir/Vround_robin_arbiter_tb > $(LOGS_DIR)/round_robin_arbiter.log
 	cat $(LOGS_DIR)/round_robin_arbiter.log
+
+test_crossbar_1m3s:
+	mkdir -p $(LOGS_DIR)
+	verilator --binary --timing -Wno-fatal -Irtl/interface rtl/interface/axi4_lite_pkg.sv rtl/interface/axi4_lite_if.sv rtl/decoder/axi_addr_decoder.sv rtl/slaves/axi_memory_slave.sv rtl/slaves/axi_register_slave.sv rtl/slaves/axi_uart_dummy.sv rtl/slaves/axi_error_slave.sv rtl/interconnect/axi_crossbar_1m3s.sv tb/integration/axi_crossbar_tb.sv --top-module axi_crossbar_tb
+	./obj_dir/Vaxi_crossbar_tb > $(LOGS_DIR)/axi_crossbar_1m3s.log
+	cat $(LOGS_DIR)/axi_crossbar_1m3s.log
 
 clean:
 	rm -rf $(WAVES_DIR)/* $(LOGS_DIR)/* $(SIM_DIR)/*.out obj_dir
