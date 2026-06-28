@@ -1,0 +1,25 @@
+name: AXI4-Lite Interconnect CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build_and_verify:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Verilator
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y verilator
+
+    - name: Verify Single-Master Crossbar (1M3S)
+      run: make test_crossbar_1m3s
+      
+    - name: Verify Multi-Master Crossbar (2M3S) with Assertions & Coverage
+      run: make test_crossbar_2m3s
