@@ -159,8 +159,20 @@ VL_ATTR_COLD void Vaxi_crossbar_2m3s_tb___024root___ctor_var_reset(Vaxi_crossbar
     for (int __Vi0 = 0; __Vi0 < 128; ++__Vi0) {
         vlSelf->axi_crossbar_2m3s_tb__DOT__m1_mem_ref[__Vi0] = VL_RAND_RESET_I(32);
     }
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_write_contention = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_read_contention = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits = 0;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel = VL_RAND_RESET_I(3);
     vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 = VL_RAND_RESET_I(32);
     vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__data0 = VL_RAND_RESET_I(32);
+    vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel = VL_RAND_RESET_I(3);
     vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 = VL_RAND_RESET_I(32);
     vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__data1 = VL_RAND_RESET_I(32);
     vlSelf->axi_crossbar_2m3s_tb__DOT____Vlvbound_hab0dbbbd__0 = VL_RAND_RESET_I(32);

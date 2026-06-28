@@ -34,46 +34,136 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__w_match = 0;
     CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__b_match;
     __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__b_match = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__r_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__r_match = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__b_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__b_match = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__r_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__1__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__1__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__r_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__3__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__3__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__5__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__5__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__7__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__7__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__r_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__9__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__9__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__11__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__11__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__r_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__13__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__13__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__15__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__15__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__r_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__17__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__17__addr = 0;
     // Body
     VL_WRITEF("Starting Multi-Master Crossbar Tests...\n\n");
     vlSelf->axi_crossbar_2m3s_tb__DOT__rst_n = 0U;
@@ -89,11 +179,11 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY = 0U;
     co_await vlSelf->__VdlySched.delay(0x4e20ULL, nullptr, 
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                       158);
+                                       172);
     vlSelf->axi_crossbar_2m3s_tb__DOT__rst_n = 1U;
     co_await vlSelf->__VdlySched.delay(0x4e20ULL, nullptr, 
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                       160);
+                                       174);
     __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__data = 0xaaaabbbbU;
     __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__addr = 0U;
     __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__aw_done = 0U;
@@ -114,13 +204,30 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WSTRB = 0xfU;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 1U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__1__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__1__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__1__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__1__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
     while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__aw_done)) 
                   | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__w_done))))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           46);
+                                                           49);
         __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__aw_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWREADY));
@@ -131,7 +238,7 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           49);
+                                           52);
         if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__aw_done)) 
              & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__aw_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 0U;
@@ -149,7 +256,7 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               54);
+                                                               57);
             __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__b_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY));
@@ -160,7 +267,7 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               57);
+                                               60);
             if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__b_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 0U;
                 goto __Vlabel1;
@@ -169,36 +276,53 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
         __Vlabel1: ;
     }
     vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__0__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__addr = 0U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__addr = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_done = 0U;
     co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                        nullptr, 
                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       70);
+                                                       73);
     co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                       70);
+                                       73);
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARADDR 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__addr;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__addr;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY = 1U;
-    while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_done)))) {
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__3__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__3__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__3__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__3__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_done)))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           73);
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_match 
+                                                           80);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARREADY));
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           75);
-        if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_match) {
+                                           82);
+        if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_match) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__ar_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__ar_done = 1U;
         }
     }
     {
@@ -207,84 +331,370 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               79);
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__r_match 
+                                                               86);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__r_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY));
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__r_match) {
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__data 
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__r_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__data 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RDATA;
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__resp 
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__resp 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RRESP;
             }
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               82);
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__r_match) {
+                                               89);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__r_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY = 0U;
                 goto __Vlabel2;
             }
         }
         __Vlabel2: ;
     }
-    vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__data;
-    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__1__resp;
-    if (((0xaaaabbbbU != vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0) 
-         | (0U != (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp0)))) {
-        VL_WRITEF("FAIL: Test 1 M0\n");
+    vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__data;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__2__resp;
+    if (VL_UNLIKELY(((0xaaaabbbbU != vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0) 
+                     | (0U != (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp0))))) {
+        VL_WRITEF("FAIL: Test 1 M0 Mem\n");
         vlSelf->axi_crossbar_2m3s_tb__DOT__errors = 
             ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__errors);
-    } else {
-        VL_WRITEF("PASS: Master0\n");
     }
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__data = 0xccccddddU;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__addr = 0x1004U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_done = 0U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data = 0x12345678U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr = 0x2000U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done = 0U;
     co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                        nullptr, 
                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       95);
+                                                       40);
     co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                       95);
-    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWADDR 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__addr;
-    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 1U;
-    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WDATA 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__data;
-    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WSTRB = 0xfU;
-    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 1U;
-    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 1U;
-    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_done)) 
-                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_done))))) {
+                                       40);
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWADDR 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WDATA 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WSTRB = 0xfU;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 1U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__5__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__5__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__5__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__5__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done))))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           101);
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_match 
+                                                           49);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID) 
+               & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWREADY));
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID) 
+               & ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
+                  & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
+        co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                           nullptr, 
+                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                           52);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match))) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done = 1U;
+        }
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match))) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done = 1U;
+        }
+    }
+    {
+        while (1U) {
+            co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                               nullptr, 
+                                                               "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                               57);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match 
+                = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BVALID) 
+                   & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY));
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp 
+                    = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
+            }
+            co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                               nullptr, 
+                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                               60);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match) {
+                vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 0U;
+                goto __Vlabel3;
+            }
+        }
+        __Vlabel3: ;
+    }
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__data = 0x9abcdef0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__addr = 0x2004U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_done = 0U;
+    co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                       nullptr, 
+                                                       "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                       40);
+    co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
+                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                       40);
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWADDR 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__addr;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WDATA 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__data;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WSTRB = 0xfU;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 1U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__7__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__7__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__7__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__7__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_done))))) {
+        co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                           nullptr, 
+                                                           "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                           49);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID) 
+               & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWREADY));
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID) 
+               & ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
+                  & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
+        co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                           nullptr, 
+                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                           52);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_match))) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__aw_done = 1U;
+        }
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_match))) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__w_done = 1U;
+        }
+    }
+    {
+        while (1U) {
+            co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                               nullptr, 
+                                                               "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                               57);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__b_match 
+                = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BVALID) 
+                   & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY));
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__resp 
+                    = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
+            }
+            co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                               nullptr, 
+                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                               60);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__b_match) {
+                vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 0U;
+                goto __Vlabel4;
+            }
+        }
+        __Vlabel4: ;
+    }
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__6__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__addr = 0x2000U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_done = 0U;
+    co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                       nullptr, 
+                                                       "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                       73);
+    co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
+                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                       73);
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARADDR 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__addr;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY = 1U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__9__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__9__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__9__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__9__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_done)))) {
+        co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                           nullptr, 
+                                                           "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                           80);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID) 
+               & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARREADY));
+        co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                           nullptr, 
+                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                           82);
+        if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_match) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__ar_done = 1U;
+        }
+    }
+    {
+        while (1U) {
+            co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                               nullptr, 
+                                                               "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                               86);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__r_match 
+                = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RVALID) 
+                   & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY));
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__r_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__data 
+                    = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RDATA;
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__resp 
+                    = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RRESP;
+            }
+            co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                               nullptr, 
+                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                               89);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__r_match) {
+                vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY = 0U;
+                goto __Vlabel5;
+            }
+        }
+        __Vlabel5: ;
+    }
+    vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__data;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__8__resp;
+    if (VL_UNLIKELY(((0x9abcdef0U != vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0) 
+                     | (0U != (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp0))))) {
+        VL_WRITEF("FAIL: Test 1 M0 UART\n");
+        vlSelf->axi_crossbar_2m3s_tb__DOT__errors = 
+            ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__errors);
+    }
+    if (VL_UNLIKELY((0U == vlSelf->axi_crossbar_2m3s_tb__DOT__errors))) {
+        VL_WRITEF("PASS: Master0\n");
+    }
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data = 0xccccddddU;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr = 0x1004U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done = 0U;
+    co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                       nullptr, 
+                                                       "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                       102);
+    co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
+                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                       102);
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWADDR 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WDATA 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WSTRB = 0xfU;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 1U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__11__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__11__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__11__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__11__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done))))) {
+        co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                           nullptr, 
+                                                           "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                           111);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWREADY));
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_match 
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID) 
                & (((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
                    >> 1U) & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           104);
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_match))) {
+                                           114);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__aw_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done = 1U;
         }
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_match))) {
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__w_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done = 1U;
         }
     }
     {
@@ -293,56 +703,73 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               109);
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__b_match 
+                                                               119);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY));
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__b_match) {
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__resp 
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
             }
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               112);
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__b_match) {
+                                               122);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 0U;
-                goto __Vlabel3;
+                goto __Vlabel6;
             }
         }
-        __Vlabel3: ;
+        __Vlabel6: ;
     }
-    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__2__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__addr = 0x1004U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_done = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__addr = 0x1004U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_done = 0U;
     co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                        nullptr, 
                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       125);
+                                                       135);
     co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                       125);
+                                       135);
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARADDR 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__addr;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__addr;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY = 1U;
-    while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_done)))) {
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__13__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__13__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__13__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__13__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_done)))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           128);
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_match 
+                                                           142);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARREADY));
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           130);
-        if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_match) {
+                                           144);
+        if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_match) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__ar_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__ar_done = 1U;
         }
     }
     {
@@ -351,35 +778,216 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               134);
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__r_match 
+                                                               148);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__r_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY));
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__r_match) {
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__data 
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__r_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__data 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RDATA;
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__resp 
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__resp 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RRESP;
             }
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               137);
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__r_match) {
+                                               151);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__r_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY = 0U;
-                goto __Vlabel4;
+                goto __Vlabel7;
             }
         }
-        __Vlabel4: ;
+        __Vlabel7: ;
     }
-    vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__data;
-    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__3__resp;
-    if (((0xccccddddU != vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1) 
-         | (0U != (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1)))) {
-        VL_WRITEF("FAIL: Test 2 M1\n");
+    vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__data;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__12__resp;
+    if (VL_UNLIKELY(((0xccccddddU != vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1) 
+                     | (0U != (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1))))) {
+        VL_WRITEF("FAIL: Test 2 M1 Reg\n");
         vlSelf->axi_crossbar_2m3s_tb__DOT__errors = 
             ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__errors);
+    }
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__data = 0xdeadbeefU;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__addr = 0x3000U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_done = 0U;
+    co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                       nullptr, 
+                                                       "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                       102);
+    co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
+                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                       102);
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWADDR 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__addr;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WDATA 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__data;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WSTRB = 0xfU;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 1U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__15__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__15__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__15__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__15__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
     } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_done))))) {
+        co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                           nullptr, 
+                                                           "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                           111);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID) 
+               & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWREADY));
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID) 
+               & (((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
+                   >> 1U) & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
+        co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                           nullptr, 
+                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                           114);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_match))) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__aw_done = 1U;
+        }
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_match))) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__w_done = 1U;
+        }
+    }
+    {
+        while (1U) {
+            co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                               nullptr, 
+                                                               "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                               119);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__b_match 
+                = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BVALID) 
+                   & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY));
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__resp 
+                    = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
+            }
+            co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                               nullptr, 
+                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                               122);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__b_match) {
+                vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 0U;
+                goto __Vlabel8;
+            }
+        }
+        __Vlabel8: ;
+    }
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__14__resp;
+    if (VL_UNLIKELY((2U != (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1)))) {
+        VL_WRITEF("FAIL: M1 Error Write\n");
+        vlSelf->axi_crossbar_2m3s_tb__DOT__errors = 
+            ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__errors);
+    }
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__addr = 0x4000U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_done = 0U;
+    co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                       nullptr, 
+                                                       "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                       135);
+    co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
+                                       "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                       135);
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARADDR 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__addr;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID = 1U;
+    vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY = 1U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__17__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__17__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__17__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__17__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_done)))) {
+        co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                           nullptr, 
+                                                           "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                           142);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_match 
+            = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID) 
+               & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARREADY));
+        co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                           nullptr, 
+                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                           144);
+        if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_match) {
+            vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__ar_done = 1U;
+        }
+    }
+    {
+        while (1U) {
+            co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
+                                                               nullptr, 
+                                                               "@(posedge axi_crossbar_2m3s_tb.clk)", 
+                                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                                               148);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__r_match 
+                = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RVALID) 
+                   & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY));
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__r_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__data 
+                    = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RDATA;
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__resp 
+                    = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RRESP;
+            }
+            co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
+                                               nullptr, 
+                                               "tb/integration/axi_crossbar_2m3s_tb.sv", 
+                                               151);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__r_match) {
+                vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY = 0U;
+                goto __Vlabel9;
+            }
+        }
+        __Vlabel9: ;
+    }
+    vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__data;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__16__resp;
+    if (VL_UNLIKELY((2U != (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1)))) {
+        VL_WRITEF("FAIL: M1 Error Read\n");
+        vlSelf->axi_crossbar_2m3s_tb__DOT__errors = 
+            ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__errors);
+    }
+    if (VL_UNLIKELY((0U == vlSelf->axi_crossbar_2m3s_tb__DOT__errors))) {
         VL_WRITEF("PASS: Master1\n");
     }
     vlSelf->axi_crossbar_2m3s_tb__DOT__grant_idx = 0U;
@@ -388,7 +996,7 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_1__1(vlSelf);
     co_await vlSelf->__Vfork_1__sync.join(nullptr, 
                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                          176);
+                                          203);
     if ((((((1U == vlSelf->axi_crossbar_2m3s_tb__DOT__grant_trace
              [0U]) & (2U == vlSelf->axi_crossbar_2m3s_tb__DOT__grant_trace
                       [1U])) & (1U == vlSelf->axi_crossbar_2m3s_tb__DOT__grant_trace
@@ -428,7 +1036,7 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_2__1(vlSelf);
     co_await vlSelf->__Vfork_2__sync.join(nullptr, 
                                           "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                          206);
+                                          233);
     if (VL_UNLIKELY((0U == vlSelf->axi_crossbar_2m3s_tb__DOT__errors))) {
         VL_WRITEF("PASS: Random Regression\n");
     }
@@ -440,7 +1048,39 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                   32,vlSelf->axi_crossbar_2m3s_tb__DOT__errors);
     }
     VL_WRITEF("-----------------------------\n");
-    VL_FINISH_MT("tb/integration/axi_crossbar_2m3s_tb.sv", 247, "");
+    VL_WRITEF("\n=============================================\n       AXI CROSSBAR FUNCTIONAL COVERAGE      \n=============================================\n Master Coverage:\n   M0 Writes : %11d\n   M1 Writes : %11d\n   M0 Reads  : %11d\n   M1 Reads  : %11d\n---------------------------------------------\n Slave Address Coverage:\n   Memory   (0x0000 - 0x0FFF) : %11d\n   Register (0x1000 - 0x1FFF) : %11d\n   UART     (0x2000 - 0x2FFF) : %11d\n   Error    (0x3000 - 0xFFFF) : %11d\n",
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    VL_WRITEF("---------------------------------------------\n Cross Coverage (Contention):\n   Simultaneous Write Reqs : %11d\n   Simultaneous Read Reqs  : %11d\n---------------------------------------------\n Coverage Goals Achieved:\n   Memory     [%s]\n   Register   [%s]\n   UART       [%s]\n   Error      [%s]\n   Read       [%s]\n   Write      [%s]\n   M0         [%s]\n   M1         [%s]\n   Contention [%s]\n   SLVERR     [%s]\n=============================================\n\n",
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_write_contention,
+              32,vlSelf->axi_crossbar_2m3s_tb__DOT__cov_read_contention,
+              8,(VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits)
+                  ? 0x78U : 0x20U),8,(VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits)
+                                       ? 0x78U : 0x20U),
+              8,(VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits)
+                  ? 0x78U : 0x20U),8,(VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits)
+                                       ? 0x78U : 0x20U),
+              8,((VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads) 
+                  & VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads))
+                  ? 0x78U : 0x20U),8,((VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes) 
+                                       & VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes))
+                                       ? 0x78U : 0x20U),
+              8,((VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads) 
+                  & VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes))
+                  ? 0x78U : 0x20U),8,((VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads) 
+                                       & VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes))
+                                       ? 0x78U : 0x20U),
+              8,((VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_write_contention) 
+                  | VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_read_contention))
+                  ? 0x78U : 0x20U),8,(VL_LTS_III(32, 0U, vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits)
+                                       ? 0x78U : 0x20U));
+    VL_FINISH_MT("tb/integration/axi_crossbar_2m3s_tb.sv", 295, "");
 }
 
 VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_2__1(Vaxi_crossbar_2m3s_tb___024root* vlSelf) {
@@ -450,92 +1090,129 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     // Init
     IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__i;
     axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__i = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__r_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__31__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__31__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__r_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__33__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__33__addr = 0;
     // Body
     axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__i = 0U;
     while (VL_GTS_III(32, 0x1f4U, axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__i)) {
-        vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
-            = VL_SHIFTL_III(32,32,32, (IData)(VL_URANDOM_RANGE_I(0x80U, 0xffU)), 2U);
+        vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel 
+            = (7U & VL_URANDOM_RANGE_I(0U, 3U));
+        if ((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
+                = VL_SHIFTL_III(32,32,32, (IData)(VL_URANDOM_RANGE_I(0x80U, 0xffU)), 2U);
+        } else if ((1U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
+                = ((IData)(0x1000U) + (IData)(VL_SHIFTL_III(32,32,32, (IData)(
+                                                                              VL_URANDOM_RANGE_I(4U, 7U)), 2U)));
+        } else if ((2U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
+                = ((IData)(0x2000U) + (IData)(VL_SHIFTL_III(32,32,32, (IData)(
+                                                                              VL_URANDOM_RANGE_I(4U, 7U)), 2U)));
+        } else {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
+                = ((IData)(0x3000U) + (IData)(VL_SHIFTL_III(32,32,32, (IData)(
+                                                                              VL_URANDOM_RANGE_I(4U, 7U)), 2U)));
+        }
         vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__data1 
             = VL_RANDOM_I();
         if ((0U != VL_URANDOM_RANGE_I(0U, 1U))) {
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data 
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__data 
                 = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__data1;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr 
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__addr 
                 = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_done = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_done = 0U;
             co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               95);
+                                                               102);
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               95);
+                                               102);
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWADDR 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__addr;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__addr;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 1U;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WDATA 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__data;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__data;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WSTRB = 0xfU;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 1U;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 1U;
-            while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done)) 
-                          | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done))))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes 
+                = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__31__addr 
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__addr;
+            if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__31__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+            } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__31__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+            } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__31__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+            } else {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+            }
+            while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_done)) 
+                          | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_done))))) {
                 co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                    nullptr, 
                                                                    "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                   101);
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match 
+                                                                   111);
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_match 
                     = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID) 
                        & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWREADY));
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match 
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_match 
                     = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID) 
                        & (((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
                            >> 1U) & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
                 co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                    nullptr, 
                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                   104);
-                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done)) 
-                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_match))) {
+                                                   114);
+                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_done)) 
+                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_match))) {
                     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 0U;
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__aw_done = 1U;
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__aw_done = 1U;
                 }
-                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done)) 
-                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_match))) {
+                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_done)) 
+                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_match))) {
                     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 0U;
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__w_done = 1U;
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__w_done = 1U;
                 }
             }
             {
@@ -544,28 +1221,29 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                        nullptr, 
                                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                       109);
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match 
+                                                                       119);
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__b_match 
                         = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BVALID) 
                            & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY));
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match) {
-                        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp 
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__b_match) {
+                        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__resp 
                             = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
                     }
                     co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                        nullptr, 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       112);
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__b_match) {
+                                                       122);
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__b_match) {
                         vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 0U;
-                        goto __Vlabel5;
+                        goto __Vlabel10;
                     }
                 }
-                __Vlabel5: ;
+                __Vlabel10: ;
             }
             vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__10__resp;
-            if ((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1))) {
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__30__resp;
+            if (((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel)) 
+                 & (0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1)))) {
                 vlSelf->axi_crossbar_2m3s_tb__DOT____Vlvbound_hc2133c3a__0 
                     = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__data1;
                 if (VL_LIKELY((0x7fU >= (0xffU & ((vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
@@ -579,38 +1257,55 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                 }
             }
         } else {
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__addr 
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__addr 
                 = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_done = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_done = 0U;
             co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               125);
+                                                               135);
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               125);
+                                               135);
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARADDR 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__addr;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__addr;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID = 1U;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY = 1U;
-            while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_done)))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads 
+                = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__33__addr 
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__addr;
+            if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__33__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+            } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__33__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+            } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__33__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+            } else {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+            }
+            while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_done)))) {
                 co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                    nullptr, 
                                                                    "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                   128);
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_match 
+                                                                   142);
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_match 
                     = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID) 
                        & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARREADY));
                 co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                    nullptr, 
                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                   130);
-                if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_match) {
+                                                   144);
+                if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_match) {
                     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID = 0U;
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__ar_done = 1U;
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__ar_done = 1U;
                 }
             }
             {
@@ -619,32 +1314,33 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                        nullptr, 
                                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                       134);
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__r_match 
+                                                                       148);
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__r_match 
                         = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RVALID) 
                            & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY));
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__r_match) {
-                        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__data 
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__r_match) {
+                        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__data 
                             = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RDATA;
-                        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__resp 
+                        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__resp 
                             = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RRESP;
                     }
                     co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                        nullptr, 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       137);
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__r_match) {
+                                                       151);
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__r_match) {
                         vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.RREADY = 0U;
-                        goto __Vlabel6;
+                        goto __Vlabel11;
                     }
                 }
-                __Vlabel6: ;
+                __Vlabel11: ;
             }
             vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__data;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__data;
             vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__11__resp;
-            if (VL_UNLIKELY(((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1)) 
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_read__32__resp;
+            if (VL_UNLIKELY((((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel)) 
+                              & (0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp1))) 
                              & (vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1 
                                 != ((0x7fU >= (0xffU 
                                                & ((vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
@@ -655,7 +1351,15 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                 >> 2U) 
                                                - (IData)(0x80U)))]
                                      : 0U))))) {
-                VL_WRITEF("FAIL: M1 Random Mismatch\n");
+                VL_WRITEF("FAIL: M1 Random Mismatch Addr=%x Expected=%x Got=%x\n",
+                          32,vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1,
+                          32,((0x7fU >= (0xffU & ((vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
+                                                   >> 2U) 
+                                                  - (IData)(0x80U))))
+                               ? vlSelf->axi_crossbar_2m3s_tb__DOT__m1_mem_ref
+                              [(0xffU & ((vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1 
+                                          >> 2U) - (IData)(0x80U)))]
+                               : 0U),32,vlSelf->axi_crossbar_2m3s_tb__DOT__rdata1);
                 vlSelf->axi_crossbar_2m3s_tb__DOT__errors 
                     = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__errors);
             }
@@ -664,7 +1368,7 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
             = ((IData)(1U) + axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__i);
     }
     vlSelf->__Vfork_2__sync.done("tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                 223);
+                                 259);
 }
 
 VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_2__0(Vaxi_crossbar_2m3s_tb___024root* vlSelf) {
@@ -674,48 +1378,68 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     // Init
     IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__i;
     axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__i = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__b_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__b_match = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__r_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__27__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__27__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__r_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__r_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__29__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__29__addr = 0;
     // Body
     axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__i = 0U;
     while (VL_GTS_III(32, 0x1f4U, axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__i)) {
-        vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 
-            = VL_SHIFTL_III(32,32,32, (IData)(VL_URANDOM_RANGE_I(0U, 0x7fU)), 2U);
+        vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel 
+            = (7U & VL_URANDOM_RANGE_I(0U, 3U));
+        if ((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 
+                = VL_SHIFTL_III(32,32,32, (IData)(VL_URANDOM_RANGE_I(0U, 0x7fU)), 2U);
+        } else if ((1U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 
+                = ((IData)(0x1000U) + (IData)(VL_SHIFTL_III(32,32,32, (IData)(
+                                                                              VL_URANDOM_RANGE_I(0U, 3U)), 2U)));
+        } else if ((2U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 
+                = ((IData)(0x2000U) + (IData)(VL_SHIFTL_III(32,32,32, (IData)(
+                                                                              VL_URANDOM_RANGE_I(0U, 3U)), 2U)));
+        } else {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 
+                = ((IData)(0x3000U) + (IData)(VL_SHIFTL_III(32,32,32, (IData)(
+                                                                              VL_URANDOM_RANGE_I(0U, 3U)), 2U)));
+        }
         vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__data0 
             = VL_RANDOM_I();
         if ((0U != VL_URANDOM_RANGE_I(0U, 1U))) {
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__data 
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__data 
                 = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__data0;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__addr 
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__addr 
                 = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_done = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_done = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_done = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_done = 0U;
             co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
@@ -726,40 +1450,57 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
                                                40);
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWADDR 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__addr;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__addr;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 1U;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WDATA 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__data;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__data;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WSTRB = 0xfU;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 1U;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 1U;
-            while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_done)) 
-                          | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_done))))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes 
+                = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__27__addr 
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__addr;
+            if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__27__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+            } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__27__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+            } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__27__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+            } else {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+            }
+            while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_done)) 
+                          | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_done))))) {
                 co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                    nullptr, 
                                                                    "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                   46);
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_match 
+                                                                   49);
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_match 
                     = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID) 
                        & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWREADY));
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_match 
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_match 
                     = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID) 
                        & ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
                           & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
                 co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                    nullptr, 
                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                   49);
-                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_done)) 
-                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_match))) {
+                                                   52);
+                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_done)) 
+                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_match))) {
                     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 0U;
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__aw_done = 1U;
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__aw_done = 1U;
                 }
-                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_done)) 
-                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_match))) {
+                if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_done)) 
+                     & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_match))) {
                     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 0U;
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__w_done = 1U;
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__w_done = 1U;
                 }
             }
             {
@@ -768,66 +1509,84 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                        nullptr, 
                                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                       54);
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__b_match 
+                                                                       57);
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__b_match 
                         = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BVALID) 
                            & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY));
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__b_match) {
-                        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__resp 
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__b_match) {
+                        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__resp 
                             = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
                     }
                     co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                        nullptr, 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       57);
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__b_match) {
+                                                       60);
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__b_match) {
                         vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 0U;
-                        goto __Vlabel7;
+                        goto __Vlabel12;
                     }
                 }
-                __Vlabel7: ;
+                __Vlabel12: ;
             }
             vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__8__resp;
-            if ((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp0))) {
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__26__resp;
+            if (((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel)) 
+                 & (0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp0)))) {
                 vlSelf->axi_crossbar_2m3s_tb__DOT__m0_mem_ref[(0x7fU 
                                                                & (vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 
                                                                   >> 2U))] 
                     = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__data0;
             }
         } else {
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__addr 
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__addr 
                 = vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_done = 0U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_done = 0U;
             co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               70);
+                                                               73);
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               70);
+                                               73);
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARADDR 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__addr;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__addr;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID = 1U;
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY = 1U;
-            while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_done)))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads 
+                = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__29__addr 
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__addr;
+            if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__29__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+            } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__29__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+            } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__29__addr)) {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+            } else {
+                vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+                    = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+            }
+            while ((1U & (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_done)))) {
                 co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                                    nullptr, 
                                                                    "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                   73);
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_match 
+                                                                   80);
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_match 
                     = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID) 
                        & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARREADY));
                 co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                    nullptr, 
                                                    "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                   75);
-                if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_match) {
+                                                   82);
+                if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_match) {
                     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID = 0U;
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__ar_done = 1U;
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__ar_done = 1U;
                 }
             }
             {
@@ -836,32 +1595,33 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                        nullptr, 
                                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                                       79);
-                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__r_match 
+                                                                       86);
+                    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__r_match 
                         = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RVALID) 
                            & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY));
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__r_match) {
-                        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__data 
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__r_match) {
+                        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__data 
                             = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RDATA;
-                        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__resp 
+                        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__resp 
                             = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.RRESP;
                     }
                     co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                        nullptr, 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       82);
-                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__r_match) {
+                                                       89);
+                    if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__r_match) {
                         vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.RREADY = 0U;
-                        goto __Vlabel8;
+                        goto __Vlabel13;
                     }
                 }
-                __Vlabel8: ;
+                __Vlabel13: ;
             }
             vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__data;
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__data;
             vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 
-                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__9__resp;
-            if (VL_UNLIKELY(((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp0)) 
+                = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_read__28__resp;
+            if (VL_UNLIKELY((((0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel)) 
+                              & (0U == (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__resp0))) 
                              & (vlSelf->axi_crossbar_2m3s_tb__DOT__rdata0 
                                 != vlSelf->axi_crossbar_2m3s_tb__DOT__m0_mem_ref
                                 [(0x7fU & (vlSelf->axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0 
@@ -879,7 +1639,7 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
             = ((IData)(1U) + axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__i);
     }
     vlSelf->__Vfork_2__sync.done("tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                 207);
+                                 234);
 }
 
 VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_1__1(Vaxi_crossbar_2m3s_tb___024root* vlSelf) {
@@ -887,86 +1647,107 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     Vaxi_crossbar_2m3s_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_1__1\n"); );
     // Init
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__b_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__b_match = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__b_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__23__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__23__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__25__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__25__addr = 0;
     // Body
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__data = 0x33333333U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__addr = 0xcU;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_done = 0U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__data = 0x33333333U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__addr = 0xcU;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_done = 0U;
     co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                        nullptr, 
                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       95);
+                                                       102);
     co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                       95);
+                                       102);
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWADDR 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__addr;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__addr;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WDATA 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__data;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__data;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WSTRB = 0xfU;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 1U;
-    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_done)) 
-                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_done))))) {
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__23__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__23__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__23__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__23__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_done))))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           101);
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_match 
+                                                           111);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWREADY));
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_match 
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID) 
                & (((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
                    >> 1U) & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           104);
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_match))) {
+                                           114);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__aw_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__aw_done = 1U;
         }
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_match))) {
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__w_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__w_done = 1U;
         }
     }
     {
@@ -975,73 +1756,90 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               109);
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__b_match 
+                                                               119);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__b_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY));
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__b_match) {
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__resp 
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__resp 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
             }
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               112);
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__b_match) {
+                                               122);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__b_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 0U;
-                goto __Vlabel9;
+                goto __Vlabel14;
             }
         }
-        __Vlabel9: ;
+        __Vlabel14: ;
     }
-    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__6__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__data = 0x44444444U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__addr = 0x10U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_done = 0U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_done = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__22__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__data = 0x44444444U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__addr = 0x10U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_done = 0U;
     co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                        nullptr, 
                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                       95);
+                                                       102);
     co_await vlSelf->__VdlySched.delay(0x3e8ULL, nullptr, 
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                       95);
+                                       102);
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWADDR 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__addr;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__addr;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WDATA 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__data;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__data;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WSTRB = 0xfU;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 1U;
-    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_done)) 
-                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_done))))) {
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__25__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__25__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__25__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__25__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_done))))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           101);
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_match 
+                                                           111);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWREADY));
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_match 
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID) 
                & (((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
                    >> 1U) & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           104);
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_match))) {
+                                           114);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__aw_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__aw_done = 1U;
         }
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_match))) {
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.WVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__w_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__w_done = 1U;
         }
     }
     {
@@ -1050,28 +1848,28 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               109);
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__b_match 
+                                                               119);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__b_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY));
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__b_match) {
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__resp 
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__resp 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
             }
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               112);
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__b_match) {
+                                               122);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__b_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.BREADY = 0U;
-                goto __Vlabel10;
+                goto __Vlabel15;
             }
         }
-        __Vlabel10: ;
+        __Vlabel15: ;
     }
-    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__7__resp;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp1 = __Vtask_axi_crossbar_2m3s_tb__DOT__m1_write__24__resp;
     vlSelf->__Vfork_1__sync.done("tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                 181);
+                                 208);
 }
 
 VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_1__0(Vaxi_crossbar_2m3s_tb___024root* vlSelf) {
@@ -1079,43 +1877,47 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
     Vaxi_crossbar_2m3s_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__Vtiming__0____Vfork_1__0\n"); );
     // Init
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__addr;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__addr = 0;
-    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__data;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__data = 0;
-    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__resp = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_done;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_done = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_match = 0;
-    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__b_match;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__19__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__19__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__addr = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__data;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__data = 0;
+    CData/*1:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__resp = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_done;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_done = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_match = 0;
+    CData/*0:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__b_match;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__b_match = 0;
+    IData/*31:0*/ __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__21__addr;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__21__addr = 0;
     // Body
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data = 0x11111111U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr = 4U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done = 0U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__data = 0x11111111U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__addr = 4U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_done = 0U;
     co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                        nullptr, 
                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
@@ -1125,40 +1927,57 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
                                        40);
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWADDR 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__addr;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__addr;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WDATA 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__data;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__data;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WSTRB = 0xfU;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 1U;
-    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done)) 
-                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done))))) {
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__19__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__19__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__19__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__19__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_done))))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           46);
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match 
+                                                           49);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWREADY));
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match 
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID) 
                & ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
                   & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           49);
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_match))) {
+                                           52);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__aw_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__aw_done = 1U;
         }
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_match))) {
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__w_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__w_done = 1U;
         }
     }
     {
@@ -1167,30 +1986,30 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               54);
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match 
+                                                               57);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__b_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY));
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match) {
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp 
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__resp 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
             }
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               57);
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__b_match) {
+                                               60);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__b_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 0U;
-                goto __Vlabel11;
+                goto __Vlabel16;
             }
         }
-        __Vlabel11: ;
+        __Vlabel16: ;
     }
-    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__4__resp;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__data = 0x22222222U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__addr = 8U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_done = 0U;
-    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_done = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__18__resp;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__data = 0x22222222U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__addr = 8U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_done = 0U;
+    __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_done = 0U;
     co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                        nullptr, 
                                                        "@(posedge axi_crossbar_2m3s_tb.clk)", 
@@ -1200,40 +2019,57 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                        "tb/integration/axi_crossbar_2m3s_tb.sv", 
                                        40);
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWADDR 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__addr;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__addr;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WDATA 
-        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__data;
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__data;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WSTRB = 0xfU;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 1U;
     vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 1U;
-    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_done)) 
-                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_done))))) {
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes 
+        = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes);
+    __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__21__addr 
+        = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__addr;
+    if ((0x1000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__21__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits);
+    } else if ((0x2000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__21__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits);
+    } else if ((0x3000U > __Vtask_axi_crossbar_2m3s_tb__DOT__track_address_cov__21__addr)) {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits);
+    } else {
+        vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits 
+            = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits);
+    }
+    while ((1U & ((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_done)) 
+                  | (~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_done))))) {
         co_await vlSelf->__VtrigSched_h54874cc1__0.trigger(0U, 
                                                            nullptr, 
                                                            "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                           46);
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_match 
+                                                           49);
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID) 
                & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWREADY));
-        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_match 
+        __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_match 
             = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID) 
                & ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_eff_grant) 
                   & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.WREADY)));
         co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                            nullptr, 
                                            "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                           49);
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_match))) {
+                                           52);
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__aw_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__aw_done = 1U;
         }
-        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_done)) 
-             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_match))) {
+        if (((~ (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_done)) 
+             & (IData)(__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_match))) {
             vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.WVALID = 0U;
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__w_done = 1U;
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__w_done = 1U;
         }
     }
     {
@@ -1242,28 +2078,28 @@ VL_INLINE_OPT VlCoroutine Vaxi_crossbar_2m3s_tb___024root___eval_initial__TOP__V
                                                                nullptr, 
                                                                "@(posedge axi_crossbar_2m3s_tb.clk)", 
                                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                                               54);
-            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__b_match 
+                                                               57);
+            __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__b_match 
                 = ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BVALID) 
                    & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY));
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__b_match) {
-                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__resp 
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__b_match) {
+                __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__resp 
                     = vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BRESP;
             }
             co_await vlSelf->__VdlySched.delay(0x3e8ULL, 
                                                nullptr, 
                                                "tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                               57);
-            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__b_match) {
+                                               60);
+            if (__Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__b_match) {
                 vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.BREADY = 0U;
-                goto __Vlabel12;
+                goto __Vlabel17;
             }
         }
-        __Vlabel12: ;
+        __Vlabel17: ;
     }
-    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__5__resp;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__resp0 = __Vtask_axi_crossbar_2m3s_tb__DOT__m0_write__20__resp;
     vlSelf->__Vfork_1__sync.done("tb/integration/axi_crossbar_2m3s_tb.sv", 
-                                 177);
+                                 204);
 }
 
 #ifdef VL_DEBUG
@@ -1327,12 +2163,12 @@ VL_INLINE_OPT void Vaxi_crossbar_2m3s_tb___024root___act_comb__TOP__0(Vaxi_cross
                     = ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__grant_comb) 
                        | (3U & ((IData)(1U) << (1U 
                                                 & vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__unnamedblk1__DOT__unnamedblk2__DOT__idx))));
-                goto __Vlabel13;
+                goto __Vlabel18;
             }
             axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__unnamedblk1__DOT__i 
                 = ((IData)(1U) + axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__unnamedblk1__DOT__i);
         }
-        __Vlabel13: ;
+        __Vlabel18: ;
     }
     vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__grant_comb = 0U;
     axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__i = 0U;
@@ -1350,12 +2186,12 @@ VL_INLINE_OPT void Vaxi_crossbar_2m3s_tb___024root___act_comb__TOP__0(Vaxi_cross
                     = ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__grant_comb) 
                        | (3U & ((IData)(1U) << (1U 
                                                 & vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__unnamedblk2__DOT__idx))));
-                goto __Vlabel14;
+                goto __Vlabel19;
             }
             axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__i 
                 = ((IData)(1U) + axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__i);
         }
-        __Vlabel14: ;
+        __Vlabel19: ;
     }
     axi_crossbar_2m3s_tb__DOT__dut__DOT__r_eff_grant 
         = ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__r_busy)
@@ -1693,6 +2529,20 @@ VL_INLINE_OPT void Vaxi_crossbar_2m3s_tb___024root___nba_sequent__TOP__0(Vaxi_cr
                 = vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__grant_comb;
             vlSelf->axi_crossbar_2m3s_tb__DOT__grant_idx 
                 = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__grant_idx);
+        }
+    }
+    if (vlSelf->axi_crossbar_2m3s_tb__DOT__rst_n) {
+        if ((((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.ARVALID) 
+              & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.ARVALID)) 
+             & (~ (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__r_busy)))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__cov_read_contention 
+                = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_read_contention);
+        }
+        if ((((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m0.AWVALID) 
+              & (IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__axi_m1.AWVALID)) 
+             & (~ (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__w_busy)))) {
+            vlSelf->axi_crossbar_2m3s_tb__DOT__cov_write_contention 
+                = ((IData)(1U) + vlSelf->axi_crossbar_2m3s_tb__DOT__cov_write_contention);
         }
     }
 }
@@ -2238,12 +3088,12 @@ VL_INLINE_OPT void Vaxi_crossbar_2m3s_tb___024root___nba_comb__TOP__0(Vaxi_cross
                     = ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__grant_comb) 
                        | (3U & ((IData)(1U) << (1U 
                                                 & vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__unnamedblk1__DOT__unnamedblk2__DOT__idx))));
-                goto __Vlabel15;
+                goto __Vlabel20;
             }
             axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__unnamedblk1__DOT__i 
                 = ((IData)(1U) + axi_crossbar_2m3s_tb__DOT__dut__DOT__ar_arbiter__DOT__unnamedblk1__DOT__i);
         }
-        __Vlabel15: ;
+        __Vlabel20: ;
     }
     vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__grant_comb = 0U;
     axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__i = 0U;
@@ -2261,12 +3111,12 @@ VL_INLINE_OPT void Vaxi_crossbar_2m3s_tb___024root___nba_comb__TOP__0(Vaxi_cross
                     = ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__grant_comb) 
                        | (3U & ((IData)(1U) << (1U 
                                                 & vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__unnamedblk2__DOT__idx))));
-                goto __Vlabel16;
+                goto __Vlabel21;
             }
             axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__i 
                 = ((IData)(1U) + axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__i);
         }
-        __Vlabel16: ;
+        __Vlabel21: ;
     }
     axi_crossbar_2m3s_tb__DOT__dut__DOT__r_eff_grant 
         = ((IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__r_busy)

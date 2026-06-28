@@ -31,6 +31,16 @@ VL_ATTR_COLD void Vaxi_crossbar_2m3s_tb___024root___eval_static__TOP(Vaxi_crossb
     // Body
     vlSelf->axi_crossbar_2m3s_tb__DOT__grant_idx = 0U;
     vlSelf->axi_crossbar_2m3s_tb__DOT__errors = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_writes = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_writes = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m0_reads = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_m1_reads = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_write_contention = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_read_contention = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_mem_hits = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_reg_hits = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_uart_hits = 0U;
+    vlSelf->axi_crossbar_2m3s_tb__DOT__cov_err_hits = 0U;
     vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__xbar__DOT__aw_allow 
         = (1U & ((~ (IData)(vlSelf->axi_crossbar_2m3s_tb__DOT__dut__DOT__xbar__DOT__b_pending)) 
                  | ((IData)(vlSymsp->TOP__axi_crossbar_2m3s_tb__DOT__dut__DOT__axi_mux.BVALID) 

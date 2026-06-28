@@ -41,6 +41,9 @@ module axi_crossbar_2m3s_tb;
             axi_m0.AWADDR = addr; axi_m0.AWVALID = 1;
             axi_m0.WDATA = data; axi_m0.WSTRB = 4'hF; axi_m0.WVALID = 1;
             axi_m0.BREADY = 1;
+            
+            cov_m0_writes++;
+            track_address_cov(addr);
 
             while (!aw_done || !w_done) begin
                 @(posedge clk);
@@ -69,6 +72,10 @@ module axi_crossbar_2m3s_tb;
         begin
             @(posedge clk); #1;
             axi_m0.ARADDR = addr; axi_m0.ARVALID = 1; axi_m0.RREADY = 1;
+            
+            cov_m0_reads++;
+            track_address_cov(addr);
+            
             while (!ar_done) begin
                 @(posedge clk);
                 ar_match = axi_m0.ARVALID && axi_m0.ARREADY;
@@ -97,6 +104,9 @@ module axi_crossbar_2m3s_tb;
             axi_m1.WDATA = data; axi_m1.WSTRB = 4'hF; axi_m1.WVALID = 1;
             axi_m1.BREADY = 1;
 
+            cov_m1_writes++;
+            track_address_cov(addr);
+
             while (!aw_done || !w_done) begin
                 @(posedge clk);
                 aw_match = axi_m1.AWVALID && axi_m1.AWREADY;
@@ -124,6 +134,10 @@ module axi_crossbar_2m3s_tb;
         begin
             @(posedge clk); #1;
             axi_m1.ARADDR = addr; axi_m1.ARVALID = 1; axi_m1.RREADY = 1;
+
+            cov_m1_reads++;
+            track_address_cov(addr);
+
             while (!ar_done) begin
                 @(posedge clk);
                 ar_match = axi_m1.ARVALID && axi_m1.ARREADY;
@@ -162,14 +176,27 @@ module axi_crossbar_2m3s_tb;
         // Test 1: Only M0 active
         m0_write(32'h0000_0000, 32'hAAAA_BBBB, resp0);
         m0_read(32'h0000_0000, rdata0, resp0);
-        if (rdata0 !== 32'hAAAA_BBBB || resp0 !== RESP_OKAY) begin $display("FAIL: Test 1 M0"); errors++; end
-        else $display("PASS: Master0");
+        if (rdata0 !== 32'hAAAA_BBBB || resp0 !== RESP_OKAY) begin $display("FAIL: Test 1 M0 Mem"); errors++; end
+
+        m0_write(32'h0000_2000, 32'h1234_5678, resp0); // UART
+        m0_write(32'h0000_2004, 32'h9ABC_DEF0, resp0); // UART
+        m0_read(32'h0000_2000, rdata0, resp0); // UART Read
+        if (rdata0 !== 32'h9ABC_DEF0 || resp0 !== RESP_OKAY) begin $display("FAIL: Test 1 M0 UART"); errors++; end
+        
+        if (errors == 0) $display("PASS: Master0");
 
         // Test 2: Only M1 active
         m1_write(32'h0000_1004, 32'hCCCC_DDDD, resp1);
         m1_read(32'h0000_1004, rdata1, resp1);
-        if (rdata1 !== 32'hCCCC_DDDD || resp1 !== RESP_OKAY) begin $display("FAIL: Test 2 M1"); errors++; end
-        else $display("PASS: Master1");
+        if (rdata1 !== 32'hCCCC_DDDD || resp1 !== RESP_OKAY) begin $display("FAIL: Test 2 M1 Reg"); errors++; end
+
+        m1_write(32'h0000_3000, 32'hDEAD_BEEF, resp1); // Error slave
+        if (resp1 !== RESP_SLVERR) begin $display("FAIL: M1 Error Write"); errors++; end
+
+        m1_read(32'h0000_4000, rdata1, resp1); // Error slave (Out of bounds)
+        if (resp1 !== RESP_SLVERR) begin $display("FAIL: M1 Error Read"); errors++; end
+        
+        if (errors == 0) $display("PASS: Master1");
 
         // Test 3: Both request simultaneously
         grant_idx = 0;
@@ -207,14 +234,23 @@ module axi_crossbar_2m3s_tb;
             begin
                 for (int i=0; i<500; i++) begin
                     // M0 Random
-                    logic [31:0] addr0 = 32'h0000_0000 + ($urandom_range(0, 127) * 4);
-                    logic [31:0] data0 = $urandom();
+                    logic [2:0] m0_slave_sel;
+                    logic [31:0] addr0;
+                    logic [31:0] data0;
+
+                    m0_slave_sel = $urandom_range(0, 3);
+                    if (m0_slave_sel == 0) addr0 = 32'h0000_0000 + ($urandom_range(0, 127) * 4);
+                    else if (m0_slave_sel == 1) addr0 = 32'h0000_1000 + ($urandom_range(0, 3) * 4);
+                    else if (m0_slave_sel == 2) addr0 = 32'h0000_2000 + ($urandom_range(0, 3) * 4);
+                    else addr0 = 32'h0000_3000 + ($urandom_range(0, 3) * 4);
+                    
+                    data0 = $urandom();
                     if ($urandom_range(0,1)) begin
                         m0_write(addr0, data0, resp0);
-                        if (resp0 == RESP_OKAY) m0_mem_ref[addr0 >> 2] = data0;
+                        if (m0_slave_sel == 0 && resp0 == RESP_OKAY) m0_mem_ref[addr0 >> 2] = data0;
                     end else begin
                         m0_read(addr0, rdata0, resp0);
-                        if (resp0 == RESP_OKAY && rdata0 !== m0_mem_ref[addr0 >> 2]) begin
+                        if (m0_slave_sel == 0 && resp0 == RESP_OKAY && rdata0 !== m0_mem_ref[addr0 >> 2]) begin
                             $display("FAIL: M0 Random Mismatch Addr=%h Expected=%h Got=%h", addr0, m0_mem_ref[addr0 >> 2], rdata0); errors++;
                         end
                     end
@@ -223,15 +259,24 @@ module axi_crossbar_2m3s_tb;
             begin
                 for (int i=0; i<500; i++) begin
                     // M1 Random
-                    logic [31:0] addr1 = 32'h0000_0000 + ($urandom_range(128, 255) * 4);
-                    logic [31:0] data1 = $urandom();
+                    logic [2:0] m1_slave_sel;
+                    logic [31:0] addr1;
+                    logic [31:0] data1;
+                    
+                    m1_slave_sel = $urandom_range(0, 3);
+                    if (m1_slave_sel == 0) addr1 = 32'h0000_0000 + ($urandom_range(128, 255) * 4);
+                    else if (m1_slave_sel == 1) addr1 = 32'h0000_1000 + ($urandom_range(4, 7) * 4);
+                    else if (m1_slave_sel == 2) addr1 = 32'h0000_2000 + ($urandom_range(4, 7) * 4);
+                    else addr1 = 32'h0000_3000 + ($urandom_range(4, 7) * 4);
+
+                    data1 = $urandom();
                     if ($urandom_range(0,1)) begin
                         m1_write(addr1, data1, resp1);
-                        if (resp1 == RESP_OKAY) m1_mem_ref[addr1 >> 2] = data1;
+                        if (m1_slave_sel == 0 && resp1 == RESP_OKAY) m1_mem_ref[addr1 >> 2] = data1;
                     end else begin
                         m1_read(addr1, rdata1, resp1);
-                        if (resp1 == RESP_OKAY && rdata1 !== m1_mem_ref[addr1 >> 2]) begin
-                            $display("FAIL: M1 Random Mismatch"); errors++;
+                        if (m1_slave_sel == 0 && resp1 == RESP_OKAY && rdata1 !== m1_mem_ref[addr1 >> 2]) begin
+                            $display("FAIL: M1 Random Mismatch Addr=%h Expected=%h Got=%h", addr1, m1_mem_ref[addr1 >> 2], rdata1); errors++;
                         end
                     end
                 end
@@ -244,7 +289,66 @@ module axi_crossbar_2m3s_tb;
         if (errors == 0) $display("ALL TESTS PASSED");
         else $display("SOME TESTS FAILED: %d errors", errors);
         $display("-----------------------------");
+        
+        print_coverage();
+        
         $finish;
     end
+
+    // --- Functional Coverage Tracking ---
+    int cov_m0_writes = 0, cov_m1_writes = 0;
+    int cov_m0_reads = 0,  cov_m1_reads = 0;
+    int cov_write_contention = 0, cov_read_contention = 0;
+    
+    int cov_mem_hits = 0, cov_reg_hits = 0, cov_uart_hits = 0, cov_err_hits = 0;
+
+    task automatic track_address_cov(input [31:0] addr);
+        if (addr < 32'h1000) cov_mem_hits++;
+        else if (addr < 32'h2000) cov_reg_hits++;
+        else if (addr < 32'h3000) cov_uart_hits++;
+        else cov_err_hits++;
+    endtask
+
+    always_ff @(posedge clk) begin
+        if (rst_n) begin
+            // Contention coverage (Cross coverage)
+            if (axi_m0.AWVALID && axi_m1.AWVALID && !dut.w_busy) cov_write_contention++;
+            if (axi_m0.ARVALID && axi_m1.ARVALID && !dut.r_busy) cov_read_contention++;
+        end
+    end
+
+    task automatic print_coverage();
+        $display("\n=============================================");
+        $display("       AXI CROSSBAR FUNCTIONAL COVERAGE      ");
+        $display("=============================================");
+        $display(" Master Coverage:");
+        $display("   M0 Writes : %d", cov_m0_writes);
+        $display("   M1 Writes : %d", cov_m1_writes);
+        $display("   M0 Reads  : %d", cov_m0_reads);
+        $display("   M1 Reads  : %d", cov_m1_reads);
+        $display("---------------------------------------------");
+        $display(" Slave Address Coverage:");
+        $display("   Memory   (0x0000 - 0x0FFF) : %d", cov_mem_hits);
+        $display("   Register (0x1000 - 0x1FFF) : %d", cov_reg_hits);
+        $display("   UART     (0x2000 - 0x2FFF) : %d", cov_uart_hits);
+        $display("   Error    (0x3000 - 0xFFFF) : %d", cov_err_hits);
+        $display("---------------------------------------------");
+        $display(" Cross Coverage (Contention):");
+        $display("   Simultaneous Write Reqs : %d", cov_write_contention);
+        $display("   Simultaneous Read Reqs  : %d", cov_read_contention);
+        $display("---------------------------------------------");
+        $display(" Coverage Goals Achieved:");
+        $display("   Memory     [%s]", cov_mem_hits > 0 ? "x" : " ");
+        $display("   Register   [%s]", cov_reg_hits > 0 ? "x" : " ");
+        $display("   UART       [%s]", cov_uart_hits > 0 ? "x" : " ");
+        $display("   Error      [%s]", cov_err_hits > 0 ? "x" : " ");
+        $display("   Read       [%s]", (cov_m0_reads > 0 && cov_m1_reads > 0) ? "x" : " ");
+        $display("   Write      [%s]", (cov_m0_writes > 0 && cov_m1_writes > 0) ? "x" : " ");
+        $display("   M0         [%s]", (cov_m0_reads > 0 && cov_m0_writes > 0) ? "x" : " ");
+        $display("   M1         [%s]", (cov_m1_reads > 0 && cov_m1_writes > 0) ? "x" : " ");
+        $display("   Contention [%s]", (cov_write_contention > 0 || cov_read_contention > 0) ? "x" : " ");
+        $display("   SLVERR     [%s]", cov_err_hits > 0 ? "x" : " ");
+        $display("=============================================\n");
+    endtask
 
 endmodule

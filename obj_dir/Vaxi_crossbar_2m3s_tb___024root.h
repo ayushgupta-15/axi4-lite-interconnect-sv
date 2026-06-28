@@ -30,6 +30,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vaxi_crossbar_2m3s_tb___024root final : publi
         CData/*0:0*/ axi_crossbar_2m3s_tb__DOT__rst_n;
         CData/*1:0*/ axi_crossbar_2m3s_tb__DOT__resp0;
         CData/*1:0*/ axi_crossbar_2m3s_tb__DOT__resp1;
+        CData/*2:0*/ axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__m0_slave_sel;
+        CData/*2:0*/ axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__m1_slave_sel;
         CData/*0:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_update_en;
         CData/*1:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__active_w_grant;
         CData/*0:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__w_busy;
@@ -78,6 +80,18 @@ class alignas(VL_CACHE_LINE_BYTES) Vaxi_crossbar_2m3s_tb___024root final : publi
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__errors;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__rdata0;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__rdata1;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_m0_writes;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_m1_writes;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_m0_reads;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_m1_reads;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_write_contention;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_read_contention;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_mem_hits;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_reg_hits;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_uart_hits;
+        IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__cov_err_hits;
+    };
+    struct {
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__addr0;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__unnamedblk2__DOT__unnamedblk3__DOT__data0;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__unnamedblk4__DOT__unnamedblk5__DOT__addr1;
@@ -90,8 +104,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vaxi_crossbar_2m3s_tb___024root final : publi
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__xbar__DOT__reg_slave__DOT__awaddr_q;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__xbar__DOT__reg_slave__DOT__wdata_q;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__xbar__DOT__reg_slave__DOT__araddr_q;
-    };
-    struct {
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__xbar__DOT__uart_slave__DOT__uart_reg;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__unnamedblk2__DOT__current_pri;
         IData/*31:0*/ axi_crossbar_2m3s_tb__DOT__dut__DOT__aw_arbiter__DOT__unnamedblk1__DOT__unnamedblk2__DOT__idx;
