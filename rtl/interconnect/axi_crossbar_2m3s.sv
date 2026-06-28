@@ -133,4 +133,22 @@ module axi_crossbar_2m3s (
     assign axi_m0.RRESP  = axi_mux.RRESP;
     assign axi_m1.RRESP  = axi_mux.RRESP;
 
+// synthesis translate_off
+`ifndef AXI_DISABLE_ASSERTIONS
+    assert property (@(posedge clk) disable iff (!rst) 
+        $onehot0(aw_grant)) else $error("Write arbiter granted multiple masters simultaneously");
+        
+    assert property (@(posedge clk) disable iff (!rst) 
+        $onehot0(ar_grant)) else $error("Read arbiter granted multiple masters simultaneously");
+
+    assert property (@(posedge clk) disable iff (!rst)
+        !(axi_m0.AWVALID && axi_m1.AWVALID && aw_grant == 2'b00 && !w_busy)) 
+        else $error("Write arbiter failed to grant when requests were pending");
+    
+    assert property (@(posedge clk) disable iff (!rst)
+        !(axi_m0.ARVALID && axi_m1.ARVALID && ar_grant == 2'b00 && !r_busy)) 
+        else $error("Read arbiter failed to grant when requests were pending");
+`endif
+// synthesis translate_on
+
 endmodule

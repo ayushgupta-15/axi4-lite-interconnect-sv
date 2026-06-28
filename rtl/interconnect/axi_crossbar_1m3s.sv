@@ -175,4 +175,20 @@ module axi_crossbar_1m3s (
                           (r_target_hot[2] ? axi_s1.RDATA : 32'b0) |
                           (r_target_hot[3] ? axi_s2.RDATA : 32'b0);
 
+// synthesis translate_off
+`ifndef AXI_DISABLE_ASSERTIONS
+    assert property (@(posedge clk) disable iff (!rst)
+        $onehot0(aw_target_hot)) else $error("Crossbar: Multiple write slaves targeted simultaneously");
+        
+    assert property (@(posedge clk) disable iff (!rst)
+        $onehot0(ar_target_hot)) else $error("Crossbar: Multiple read slaves targeted simultaneously");
+
+    assert property (@(posedge clk) disable iff (!rst)
+        $onehot0(b_target_hot)) else $error("Crossbar: Multiple write response slaves tracked");
+
+    assert property (@(posedge clk) disable iff (!rst)
+        $onehot0(r_target_hot)) else $error("Crossbar: Multiple read response slaves tracked");
+`endif
+// synthesis translate_on
+
 endmodule

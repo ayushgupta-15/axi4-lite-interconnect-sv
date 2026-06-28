@@ -41,13 +41,13 @@ test_arbiter:
 
 test_crossbar_1m3s:
 	mkdir -p $(LOGS_DIR)
-	verilator --binary --timing -Wno-fatal -Irtl/interface rtl/interface/axi4_lite_pkg.sv rtl/interface/axi4_lite_if.sv rtl/decoder/axi_addr_decoder.sv rtl/slaves/axi_memory_slave.sv rtl/slaves/axi_register_slave.sv rtl/slaves/axi_uart_dummy.sv rtl/slaves/axi_error_slave.sv rtl/interconnect/axi_crossbar_1m3s.sv tb/integration/axi_crossbar_tb.sv --top-module axi_crossbar_tb
+	verilator --assert --binary --timing -Wno-fatal -Irtl/interface rtl/interface/axi4_lite_pkg.sv rtl/interface/axi4_lite_if.sv rtl/decoder/axi_addr_decoder.sv rtl/slaves/axi_memory_slave.sv rtl/slaves/axi_register_slave.sv rtl/slaves/axi_uart_dummy.sv rtl/slaves/axi_error_slave.sv rtl/interconnect/axi_crossbar_1m3s.sv tb/integration/axi_crossbar_tb.sv --top-module axi_crossbar_tb
 	./obj_dir/Vaxi_crossbar_tb > $(LOGS_DIR)/axi_crossbar_1m3s.log
 	cat $(LOGS_DIR)/axi_crossbar_1m3s.log
 
 test_crossbar_2m3s:
 	mkdir -p $(LOGS_DIR)
-	verilator --binary --timing -Wno-fatal -Irtl/interface rtl/interface/axi4_lite_pkg.sv rtl/interface/axi4_lite_if.sv rtl/decoder/axi_addr_decoder.sv rtl/slaves/axi_memory_slave.sv rtl/slaves/axi_register_slave.sv rtl/slaves/axi_uart_dummy.sv rtl/slaves/axi_error_slave.sv rtl/arbiter/round_robin_arbiter.sv rtl/interconnect/axi_crossbar_1m3s.sv rtl/interconnect/axi_crossbar_2m3s.sv tb/integration/axi_crossbar_2m3s_tb.sv --top-module axi_crossbar_2m3s_tb
+	verilator --assert --binary --timing -Wno-fatal -Irtl/interface rtl/interface/axi4_lite_pkg.sv rtl/interface/axi4_lite_if.sv rtl/decoder/axi_addr_decoder.sv rtl/slaves/axi_memory_slave.sv rtl/slaves/axi_register_slave.sv rtl/slaves/axi_uart_dummy.sv rtl/slaves/axi_error_slave.sv rtl/arbiter/round_robin_arbiter.sv rtl/interconnect/axi_crossbar_1m3s.sv rtl/interconnect/axi_crossbar_2m3s.sv tb/integration/axi_crossbar_2m3s_tb.sv --top-module axi_crossbar_2m3s_tb
 	./obj_dir/Vaxi_crossbar_2m3s_tb > $(LOGS_DIR)/axi_crossbar_2m3s.log
 	cat $(LOGS_DIR)/axi_crossbar_2m3s.log
 
