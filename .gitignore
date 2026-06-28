@@ -19,3 +19,6 @@ vivado/*.hw/
 vivado/*.ip_user_files/
 vivado/*.sim/
 vivado/*.runs/
+
+# Verilator output
+obj_dir/
